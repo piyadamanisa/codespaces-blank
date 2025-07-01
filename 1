@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ห้องเรียนออนไลน์</title>
+  <style>
+    body { font-family: 'Sarabun', sans-serif; margin: 0; padding: 0; }
+    header { background-color: #0077b6; color: white; padding: 1rem; text-align: center; }
+    nav { background-color: #00b4d8; padding: 0.5rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; }
+    iframe { border: none; width: 100%; height: 500px; margin-top: 1rem; }
+    footer { background-color: #03045e; color: white; text-align: center; padding: 1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>เว็บไซต์การเรียนการสอน</h1>
+  <p>ห้องเรียนออนไลน์สำหรับนักเรียน</p>
+</header>
+
+<nav>
+  <a href="#docs">เอกสาร</a>
+  <a href="#homework">การบ้าน</a>
+  <a href="#scores">คะแนน</a>
+  <a href="#dashboard">Dashboard</a>
+  <a href="#announcements">ประกาศ</a>
+</nav>
+
+<!-- 🔸 1. ระบบแจกเอกสาร -->
+<section id="docs">
+  <h2>📚 เอกสารประกอบการเรียน</h2>
+  <p>เลือกวิชาหรือหน่วยการเรียนเพื่อดูเอกสาร:</p>
+
+  <h3>วิชาวิทยาศาสตร์ - หน่วยที่ 1</h3>
+  <p>เอกสาร PDF:</p>
+  <iframe src="https://drive.google.com/file/d/FILE_ID/preview"></iframe>
+
+  <p>วิดีโอ YouTube ประกอบ:</p>
+  <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID"></iframe>
+</section>
+
+<!-- 🔸 2. ระบบมอบหมายการบ้าน -->
+<section id="homework">
+  <h2>📄 แบบฝึกหัด & การบ้าน</h2>
+  <p>ทำใบงานผ่าน Google Form ด้านล่าง:</p>
+  <iframe src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true"></iframe>
+
+  <p>เข้าร่วม Google Classroom:</p>
+  <a href="https://classroom.google.com/c/CLASSROOM_ID" target="_blank">คลิกที่นี่เพื่อเข้าชั้นเรียน</a>
+</section>
+
+<!-- 🔸 3. ระบบคะแนน -->
+<section id="scores">
+  <h2>📊 คะแนนและผลการเรียน</h2>
+  <p>ดูคะแนนและกราฟการเรียน:</p>
+  <iframe src="https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/pubhtml?widget=true&amp;headers=false"></iframe>
+</section>
+
+<!-- 🔸 4. Dashboard พฤติกรรม -->
+<section id="dashboard">
+  <h2>📈 Dashboard พฤติกรรม</h2>
+  <p>ติดตามพฤติกรรมการเรียนผ่าน Google Data Studio:</p>
+  <iframe src="https://datastudio.google.com/embed/reporting/REPORT_ID/page/1M" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<!-- 🔸 5. ประกาศและปฏิทิน -->
+<section id="announcements">
+  <h2>📢 ประกาศและกำหนดการ</h2>
+  <p>ประกาศรายสัปดาห์:</p>
+  <ul>
+    <li>🗓️ สัปดาห์นี้: สอบย่อยวันศุกร์</li>
+    <li>📌 ส่งแบบฝึกหัดที่ 3 ภายในวันพฤหัส</li>
+  </ul>
+
+  <p>ลิงก์ Google Meet: <a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">เข้าร่วมการเรียน</a></p>
+
+  <p>แผนการเรียนจาก Google Calendar:</p>
+  <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=Asia%2FBangkok"></iframe>
+</section>
+
+<footer>
+  <p>© 2025 ห้องเรียนออนไลน์ | ครูผู้สอน</p>
+</footer>
+
+</body>
+</html>
